@@ -4,7 +4,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
 
 ## 前提
 
-* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Mac では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく稼働しました。
+* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Mac では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく動きました。
 * GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
 
 ## OMERO.server のインストールおよび起動
@@ -20,7 +20,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     ```
     
     Successfully built という以下のようなメッセージが表示されるのを待ちます。1cc や a54 ... などの数値はユーザ毎に異なります。
-    OMERO.server の起動には、このメッセージが表示されてからさらに10秒ほどかかります。    
+    OMERO.server の起動には、このメッセージが表示されてからさらに20秒ほどかかります。    
     
     ```
     Step 41/41 : CMD /bin/bash /start.sh && tail -f /dev/null
