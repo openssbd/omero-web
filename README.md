@@ -40,7 +40,8 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
 
-## OMERO.server に新しく画像を追加する方法いちko
+## OMERO.server に画像を新しく追加する方法
+
 OMERO.insight の起動し Docker環境に構築した OMERO.server に接続します。
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
@@ -62,4 +63,4 @@ OMERO.insight の起動し Docker環境に構築した OMERO.server に接続し
 
 ## 補足
 
-"sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。"sh run.sh" を実行したことがあり、パソコンを再起動した場合でも OMERO.server の状態を維持したい場合は、"sh run.sh" の代わりに "docker start omero-web" と入力してサービスの起動のみを指示してください。
+"sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。"sh run.sh" を一度は実行したことがあり、パソコンを再起動した場合でも OMERO.server の状態を維持したい場合は、"sh run.sh" の代わりに "docker start omero-web" と入力してDockerにサービスの起動のみを指示してください。
