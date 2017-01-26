@@ -38,9 +38,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出てアクセスできないことがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながらアクセスできない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では Docker の Preferences... で Memory を 3.0 GB にする変更する必要がありました。
-
-    ![Alt text](OMERO.docker_setup.png?raw=true "Docker の設定画面")
+    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出てアクセスできないことがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながらアクセスできない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では難しいです。
 
 ## OMERO.server に画像を新しく追加する方法
 
