@@ -48,7 +48,7 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
     
-  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac でエラーが出る場合は option を押しながらクリックします。
+  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac で "開発元が未確認のため開けません" というエラーが出る場合は option を押しながらクリックします。
   
   3. 以下のアカウントを入力し OMERO.server に接続します。
     * 鍵をかけた状態にする
