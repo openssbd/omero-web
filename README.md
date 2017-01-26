@@ -39,22 +39,22 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージがでることがあります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必須があります。
 
-## 画像を OMERO.server に追加する方法
+## OMERO.server に新しく画像を追加する方法
 
-OMERO.insight の起動し OMERO.server に接続します。
+OMERO.insight の起動し Docker環境に構築した OMERO.server に接続します。
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
     
-  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac でエラーが出る場合は option を押しながらクリックしてください。
+  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac でエラーが出る場合は option を押しながらクリックします。
   
-  3. OMERO.insight から以下のアカウントを入力し OMERO.server に接続します。
+  3. 以下のアカウントを入力し OMERO.server に接続します。
     * 鍵をかけた状態にする
     * Username: public_data
     * Password: public_data
 
     ![Alt text](OMERO.insight1.png?raw=true "OMERO.insight のログイン画面")
     
-  4. 顕微鏡画像を OMERO.server に登録します。図中の赤丸で囲ったアイコンをクリックし、画像を選択し ">" ボタンで選択し、インポートする Project や Dataset を選び、"Import" ボタンをクリックしてください。
+  4. 図中の赤丸で囲ったアイコンをクリックし、画像を選択し ">" ボタンで選択し、インポートする Project や Dataset を選び、"Import" ボタンをクリックして下さい。
     
     ![Alt text](OMERO.insight2.png?raw=true "OMERO.insight で画像をインポートする画面")
     
