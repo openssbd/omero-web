@@ -36,7 +36,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
   
     * <http://localhost/image/>
     
-    ![Alt text](OMERO.web.png?raw=false "OMERO.server の画面")
+    ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
     OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージがでることがあります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必須があります。
 
@@ -53,10 +53,10 @@ OMERO.insight の起動し OMERO.server に接続します。
     * Username: public_data
     * Password: public_data
 
-    ![Alt text](OMERO.insight1.png?raw=false "OMERO.insight の画面")
+    ![Alt text](OMERO.insight1.png?raw=true "OMERO.insight のログイン画面")
     
   4. 顕微鏡画像を OMERO.server に登録します。図中の赤丸で囲ったアイコンをクリックし、画像を選択し ">" ボタンで選択し、インポートする Project や Dataset を選び、"Import" ボタンをクリックしてください。
     
-    ![Alt text](OMERO.insight2.png?raw=true "OMERO.insight でインポートする画面")
+    ![Alt text](OMERO.insight2.png?raw=true "OMERO.insight で画像をインポートする画面")
     
     インポートのテスト用に SSBD データベース(<http://ssbd.qbic.riken.jp>) にある顕微鏡画像を使うことができます（例：<http://ssbd.qbic.riken.jp/search/afc304bc-7cca-4c92-8764-f5957dd06e3d/> の Source をダウンロードして解凍）。
