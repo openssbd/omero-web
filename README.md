@@ -37,7 +37,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージがでることがあります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必須があります。
+    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージがでることがあります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
 
 ## OMERO.server に新しく画像を追加する方法
 
