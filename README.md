@@ -13,15 +13,14 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
   1. ターミナルなどで以下のコマンドを打ち込むと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。起動までインターネットとパソコンによりますが1時間程度かかること場合があります。
   
     ```
+    # cd ~/omero-web/
     # pwd
     /Users/username/omero-web/
-    # ls
-    (run.sh があるのを確認)
     # sh run.sh
     ```
     
-    Successfully build というメッセージが表示されるのを待ちます。1cc や a54 ... などの数値はユーザ毎に異なります。
-    OMERO.server の起動には以下メッセージが表示されてからさらに10秒ほどかかります。
+    Successfully build という以下のようなメッセージが表示されるのを待ちます。1cc や a54 ... などの数値はユーザ毎に異なります。
+    OMERO.server の起動には、このメッセージが表示されてからさらに10秒ほどかかります。
     
     ```
     Step 41/41 : CMD /bin/bash /start.sh && tail -f /dev/null
@@ -33,7 +32,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     a54fe17253be899e79b8ec93d39ec0f5062e85844cc82fc7cb01474266d975c7
     ```
     
-  2. OMERO.server に接続するため Safari などのブラウザで以下のURLを入力して下さい。 
+  2. OMERO.server に接続するため Safari などのブラウザで以下のURLを入力して下さい。
   
     * <http://localhost/image/>
     
