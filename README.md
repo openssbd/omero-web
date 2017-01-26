@@ -4,7 +4,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
 
 ## 前提
 
-* Docker (<https://docs.docker.com/engine/getstarted/step_one/>) をインストールして下さい。Yosemite 以上の Mac OS では "Docker for Mac" の利用を推奨します。
+* Docker (<https://docs.docker.com/engine/getstarted/step_one/>) をインストールして下さい。Mac OS Yosemite 10.10.3 以上では "Docker for Mac" の利用を推奨します。
 * GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。
 
 ## OMERO.server のインストールおよび起動
@@ -66,3 +66,16 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
 * "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
 
 * OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
+
+* パソコンのスペックが足りない場合は、run.sh の代わりに run_test.sh を実行して Docker コンテナにログインし以下のコマンドを実行してみてください。ctrl-p ctrl-q は "control を押しながら p を押した後、もう一度、control を押しながら q を押す" というキー操作で、コンテナを起動したまま内部から抜け出すという指示です。
+
+    ```
+    # service postgresql start
+    # su - omero
+    # omero admin start
+    (ここで時間がかかります)
+    # omero web start
+    # exit
+    # service nginx start
+    # ctrl-p ctrl-q
+    ```
