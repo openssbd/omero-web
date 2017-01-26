@@ -4,13 +4,12 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
 
 ## 前提
 
-* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Mac では "Docker for Mac" のインストールを推奨します。MacBookPro では特に問題なく稼働しました。MacBookAir にインストールしたときはスペック少し足りず、Docker の Preferences ... General で CPUs:3, Memory 3.0GB 設定することで安定しました。
-  
+* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Mac では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく稼働しました。
 * GitHub からダウンロードしたファイル（"Download ZIP"を利用した場合は omero-web-master.zip を解凍する）を ~/omero-web/ に置きます（Mac ならば/Users/username/omero-web/）。置く場所を変更した場合は run.sh で ~/ となっている部分を対応するパスに修正する必要があります。
 
 ## OMERO.server のインストールおよび起動
 
-  1. ターミナルなどで以下のコマンドを打ち込むと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。起動までインターネットとパソコンによりますが1時間程度かかること場合があります。
+  1. ターミナルなどで 以下の "sh run.sh" コマンドを打ち込むと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。起動までインターネットとパソコンによりますが1時間程度かかること場合があります。
   
     ```
     # cd ~/omero-web/
