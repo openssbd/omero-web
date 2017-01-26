@@ -4,12 +4,12 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
 
 ## 前提
 
-* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Mac では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく動きました。
+* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Yosemite 以上の Mac OS では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく動きました。
 * GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
 
 ## OMERO.server のインストールおよび起動
 
-  1. ターミナルなどで以下のように omero-web フォルダ内に移動したあと "sh run.sh" コマンドを打ち込むと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。インターネットとパソコンによりますが、起動まで1時間程度かかる場合があります。
+  1. ターミナルなどで以下のように omero-web フォルダ内に移動したあと "sh run.sh" コマンドを打つと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。インターネットとパソコンによりますが、起動まで1時間程度かかる場合があります。
   
     ```
     # cd ~/omero-web/
@@ -20,7 +20,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     ```
     
     Successfully built という以下のようなメッセージが表示されるのを待ちます。1cc や a54 ... などの数値はユーザ毎に異なります。
-    OMERO.server の起動には、このメッセージが表示されてからさらに20秒ほどかかります。    
+    OMERO.server の起動には、このメッセージが表示されてからさらに20秒ほどかかります。
     
     ```
     Step 41/41 : CMD /bin/bash /start.sh && tail -f /dev/null
@@ -38,7 +38,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
+    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの稼働にパソコンのスペックが足りない場合も残念ながら表示されない場合があります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
 
 ## OMERO.server に画像を新しく追加する方法
 
