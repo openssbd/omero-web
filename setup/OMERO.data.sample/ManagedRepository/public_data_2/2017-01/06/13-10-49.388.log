@@ -1,0 +1,159 @@
+2017-01-06 13:10:51,178 INFO  [    ome.formats.OMEROMetadataStoreClient] (2-thread-5) Call context: {omero.logfilename:public_data_2/2017-01/06/13-10-49.388.log}
+2017-01-06 13:10:51,184 INFO  [         ome.security.basic.EventHandler] (l.Server-5)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,205 INFO  [                loci.formats.ImageReader] (2-thread-5) IvisionReader initializing /OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/img0001.ipm
+2017-01-06 13:10:51,206 INFO  [              loci.formats.FormatHandler] (2-thread-5) Populating metadata
+2017-01-06 13:10:51,206 INFO  [              loci.formats.FormatHandler] (2-thread-5) Looking for XML metadata
+2017-01-06 13:10:51,206 INFO  [              loci.formats.FormatHandler] (2-thread-5) Populating core metadata
+2017-01-06 13:10:51,206 INFO  [              loci.formats.FormatHandler] (2-thread-5) Populating MetadataStore
+2017-01-06 13:10:51,210 INFO  [         ome.security.basic.EventHandler] (l.Server-1)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,215 INFO  [         ome.security.basic.EventHandler] (l.Server-2)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,219 INFO  [         ome.security.basic.EventHandler] (l.Server-7)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,227 INFO  [         ome.security.basic.EventHandler] (l.Server-0)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,245 INFO  [         ome.security.basic.EventHandler] (l.Server-4)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,251 INFO  [         ome.security.basic.EventHandler] (l.Server-8)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,256 INFO  [         ome.security.basic.EventHandler] (l.Server-3)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,262 INFO  [         ome.security.basic.EventHandler] (l.Server-6)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,265 WARN  [    ome.formats.enums.IQueryEnumProvider] (2-thread-5) Enumeration 'Other' does not exist in 'class omero.model.Binning' returning 'null'
+2017-01-06 13:10:51,294 DEBUG [                   loci.formats.Memoizer] (2-thread-5) saved to temp file: /OMERO/OMERO.data/BioFormatsCache/OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/.img0001.ipm.bfmemo6314718511996975648
+2017-01-06 13:10:51,294 DEBUG [                   loci.formats.Memoizer] (2-thread-5) start[1483708251274] time[19] tag[loci.formats.Memoizer.saveMemo]
+2017-01-06 13:10:51,294 DEBUG [                   loci.formats.Memoizer] (2-thread-5) saved memo file: /OMERO/OMERO.data/BioFormatsCache/OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/.img0001.ipm.bfmemo (35636 bytes)
+2017-01-06 13:10:51,294 DEBUG [                   loci.formats.Memoizer] (2-thread-5) start[1483708251203] time[91] tag[loci.formats.Memoizer.setId]
+2017-01-06 13:10:51,294 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Image Count: 66
+2017-01-06 13:10:51,294 INFO  [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) File format: IVision
+2017-01-06 13:10:51,294 INFO  [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Base reader: loci.formats.in.IvisionReader
+2017-01-06 13:10:51,294 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Step 0
+2017-01-06 13:10:51,295 WARN  [    ome.formats.model.ReferenceProcessor] (2-thread-5) Unknown target class for LSID: Image:0
+2017-01-06 13:10:51,295 INFO  [    ome.formats.OMEROMetadataStoreClient] (2-thread-5) Handling # of containers: 9
+2017-01-06 13:10:51,297 INFO  [         ome.security.basic.EventHandler] (l.Server-5)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,298 INFO  [    ome.formats.OMEROMetadataStoreClient] (2-thread-5) Handling # of references: 3
+2017-01-06 13:10:51,299 INFO  [         ome.security.basic.EventHandler] (l.Server-1)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,314 INFO  [         ome.security.basic.EventHandler] (l.Server-2)  Auth:	user=2,group=3,event=1049(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,336 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.acquisition.Instrument,2
+2017-01-06 13:10:51,338 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.acquisition.Detector,2
+2017-01-06 13:10:51,339 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.acquisition.Objective,2
+2017-01-06 13:10:51,341 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.acquisition.ObjectiveSettings,2
+2017-01-06 13:10:51,343 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.core.Image,3
+2017-01-06 13:10:51,345 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.containers.DatasetImageLink,3
+2017-01-06 13:10:51,346 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.core.Pixels,3
+2017-01-06 13:10:51,348 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.acquisition.DetectorSettings,2
+2017-01-06 13:10:51,350 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.core.LogicalChannel,3
+2017-01-06 13:10:51,352 INFO  [       ome.security.basic.CurrentDetails] (l.Server-2) Adding log:INSERT,class ome.model.core.Channel,3
+2017-01-06 13:10:51,378 INFO  [         ome.security.basic.EventHandler] (l.Server-9)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,398 INFO  [         ome.security.basic.EventHandler] (l.Server-7)  Auth:	user=2,group=3,event=1050(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:51,403 INFO  [       ome.security.basic.CurrentDetails] (l.Server-7) Adding log:UPDATE,class ome.model.core.OriginalFile,180
+2017-01-06 13:10:51,407 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Step 1
+2017-01-06 13:10:51,408 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:0 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,428 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:1 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,438 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:2 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,449 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:3 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,459 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:4 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,469 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:5 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,480 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:6 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,490 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:7 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,500 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:8 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,511 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:9 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,521 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:10 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,531 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:11 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,541 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:12 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,552 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:13 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,562 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:14 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,572 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:15 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,583 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:16 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,593 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:17 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,604 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:18 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,614 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:19 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,624 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:20 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,634 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:21 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,645 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:22 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,655 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:23 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,666 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:24 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,676 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:25 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,686 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:26 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,697 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:27 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,707 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:28 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,718 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:29 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,728 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:30 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,738 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:31 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,749 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:32 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,759 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:33 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,769 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:34 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,780 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:35 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,790 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:36 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,801 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:37 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,811 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:38 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,822 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:39 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,832 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:40 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,842 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:41 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,853 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:42 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,863 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:43 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,873 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:44 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,884 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:45 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,894 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:46 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,904 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:47 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,915 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:48 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,925 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:49 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,936 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:50 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,946 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:51 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,957 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:52 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,968 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:53 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,979 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:54 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:51,989 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:55 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,000 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:56 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,011 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:57 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,023 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:58 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,034 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:59 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,049 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:60 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,061 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:61 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,073 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:62 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,085 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:63 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,096 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:64 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,106 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Plane:65 X:0 Y:0 TileWidth:600 TileHeight:600 arrayBuf.length:720000
+2017-01-06 13:10:52,136 INFO  [         ome.security.basic.EventHandler] (l.Server-0)  Auth:	user=2,group=3,event=1051(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,157 INFO  [         ome.security.basic.EventHandler] (l.Server-4)  Auth:	user=2,group=3,event=1052(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,374 INFO  [       ome.security.basic.CurrentDetails] (l.Server-4) Adding log:UPDATE,class ome.model.core.Pixels,3
+2017-01-06 13:10:52,393 INFO  [         ome.security.basic.EventHandler] (l.Server-8)  Auth:	user=2,group=3,event=1053(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,401 INFO  [         ome.security.basic.EventHandler] (l.Server-3)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,419 INFO  [         ome.security.basic.EventHandler] (l.Server-6)  Auth:	user=2,group=3,event=1054(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,424 INFO  [       ome.security.basic.CurrentDetails] (l.Server-6) Adding log:UPDATE,class ome.model.core.OriginalFile,180
+2017-01-06 13:10:52,427 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Step 2
+2017-01-06 13:10:52,443 INFO  [         ome.security.basic.EventHandler] (l.Server-5)  Auth:	user=2,group=3,event=1055(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,498 DEBUG [                   loci.formats.Memoizer] (l.Server-5) loaded memo file: /OMERO/OMERO.data/BioFormatsCache/OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/.img0001.ipm.bfmemo (35636 bytes)
+2017-01-06 13:10:52,499 DEBUG [                   loci.formats.Memoizer] (l.Server-5) start[1483708252470] time[28] tag[loci.formats.Memoizer.loadMemo]
+2017-01-06 13:10:52,500 DEBUG [                   loci.formats.Memoizer] (l.Server-5) start[1483708252470] time[29] tag[loci.formats.Memoizer.setId]
+2017-01-06 13:10:52,503 INFO  [       ome.security.basic.CurrentDetails] (l.Server-5) Adding log:INSERT,class ome.model.display.QuantumDef,3
+2017-01-06 13:10:52,505 INFO  [       ome.security.basic.CurrentDetails] (l.Server-5) Adding log:INSERT,class ome.model.display.RenderingDef,3
+2017-01-06 13:10:52,506 INFO  [       ome.security.basic.CurrentDetails] (l.Server-5) Adding log:INSERT,class ome.model.display.ChannelBinding,3
+2017-01-06 13:10:52,526 INFO  [         ome.security.basic.EventHandler] (l.Server-1)  Auth:	user=2,group=3,event=1056(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,540 INFO  [       ome.security.basic.CurrentDetails] (l.Server-1) Adding log:INSERT,class ome.model.display.Thumbnail,3
+2017-01-06 13:10:52,591 DEBUG [                   loci.formats.Memoizer] (l.Server-1) loaded memo file: /OMERO/OMERO.data/BioFormatsCache/OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/.img0001.ipm.bfmemo (35636 bytes)
+2017-01-06 13:10:52,591 DEBUG [                   loci.formats.Memoizer] (l.Server-1) start[1483708252569] time[21] tag[loci.formats.Memoizer.loadMemo]
+2017-01-06 13:10:52,592 DEBUG [                   loci.formats.Memoizer] (l.Server-1) start[1483708252569] time[22] tag[loci.formats.Memoizer.setId]
+2017-01-06 13:10:52,601 INFO  [       ome.logic.JavaImageScalingService] (l.Server-1) Scaling to: 96x96
+2017-01-06 13:10:52,700 INFO  [       ome.security.basic.CurrentDetails] (l.Server-1) Adding log:UPDATE,class ome.model.display.Thumbnail,3
+2017-01-06 13:10:52,706 INFO  [         ome.security.basic.EventHandler] (l.Server-2)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,716 INFO  [         ome.security.basic.EventHandler] (l.Server-9)  Auth:	user=2,group=3,event=1057(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,719 INFO  [       ome.security.basic.CurrentDetails] (l.Server-9) Adding log:UPDATE,class ome.model.core.OriginalFile,180
+2017-01-06 13:10:52,721 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Step 3
+2017-01-06 13:10:52,723 INFO  [         ome.security.basic.EventHandler] (l.Server-7)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,726 INFO  [         ome.security.basic.EventHandler] (l.Server-0)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,739 INFO  [         ome.security.basic.EventHandler] (l.Server-4)  Auth:	user=2,group=3,event=1058(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,743 INFO  [       ome.security.basic.CurrentDetails] (l.Server-4) Adding log:UPDATE,class ome.model.core.OriginalFile,180
+2017-01-06 13:10:52,747 DEBUG [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Step 4
+2017-01-06 13:10:52,749 INFO  [         ome.security.basic.EventHandler] (l.Server-8)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,763 INFO  [         ome.security.basic.EventHandler] (l.Server-3)  Auth:	user=2,group=3,event=1059(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,769 INFO  [       ome.security.basic.CurrentDetails] (l.Server-3) Adding log:UPDATE,class ome.model.core.OriginalFile,180
+2017-01-06 13:10:52,789 INFO  [         ome.security.basic.EventHandler] (l.Server-6)  Auth:	user=2,group=3,event=1060(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,791 DEBUG [                omero.util.ServantHolder] (l.Server-6) Removed omero.api._RawFileStoreTie@f086fd1d from omero.util.ServantHolder@3608b67f as f16affaf-fb8a-41f0-a905-1d51bfff759domero.api.RawFileStore
+2017-01-06 13:10:52,791 INFO  [                      omero.cmd.SessionI] (l.Server-6) Unregistered servant:0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf/f16affaf-fb8a-41f0-a905-1d51bfff759domero.api.RawFileStore(omero.api._RawFileStoreTie@f086fd1d)
+2017-01-06 13:10:52,806 INFO  [         ome.security.basic.EventHandler] (l.Server-5)  Auth:	user=2,group=3,event=1061(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,807 DEBUG [                omero.util.ServantHolder] (l.Server-5) Removed omero.api._RawPixelsStoreTie@ce89e80e from omero.util.ServantHolder@3608b67f as 92a1fb73-bf25-4e8e-a79c-2a4340dab56aomero.api.RawPixelsStore
+2017-01-06 13:10:52,808 INFO  [                      omero.cmd.SessionI] (l.Server-5) Unregistered servant:0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf/92a1fb73-bf25-4e8e-a79c-2a4340dab56aomero.api.RawPixelsStore(omero.api._RawPixelsStoreTie@ce89e80e)
+2017-01-06 13:10:52,810 INFO  [         ome.security.basic.EventHandler] (l.Server-1)  Auth:	user=2,group=3,event=null(User),sess=0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf
+2017-01-06 13:10:52,831 DEBUG [                   loci.formats.Memoizer] (l.Server-1) loaded memo file: /OMERO/OMERO.data/BioFormatsCache/OMERO/OMERO.data/ManagedRepository/public_data_2/2017-01/06/13-10-49.388/.img0001.ipm.bfmemo (35636 bytes)
+2017-01-06 13:10:52,831 DEBUG [                   loci.formats.Memoizer] (l.Server-1) start[1483708252810] time[20] tag[loci.formats.Memoizer.loadMemo]
+2017-01-06 13:10:52,831 DEBUG [                   loci.formats.Memoizer] (l.Server-1) start[1483708252810] time[21] tag[loci.formats.Memoizer.setId]
+2017-01-06 13:10:52,832 DEBUG [                omero.util.ServantHolder] (l.Server-1) Removed omero.api._ThumbnailStoreTie@f110f00d from omero.util.ServantHolder@3608b67f as 498cbef9-b0b5-4672-84f9-1d9ae8655d5aomero.api.ThumbnailStore
+2017-01-06 13:10:52,833 INFO  [                      omero.cmd.SessionI] (l.Server-1) Unregistered servant:0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf/498cbef9-b0b5-4672-84f9-1d9ae8655d5aomero.api.ThumbnailStore(omero.api._ThumbnailStoreTie@f110f00d)
+2017-01-06 13:10:52,833 DEBUG [                omero.util.ServantHolder] (l.Server-2) Removed omero.api._MetadataStoreTie@f749615c from omero.util.ServantHolder@3608b67f as d051115c-0aa9-4181-9da5-fe7db661a096omero.api.MetadataStore
+2017-01-06 13:10:52,833 INFO  [                      omero.cmd.SessionI] (l.Server-2) Unregistered servant:0f4f43b0-e837-41d8-9b8c-bb3cf02f28cf/d051115c-0aa9-4181-9da5-fe7db661a096omero.api.MetadataStore(omero.api._MetadataStoreTie@f749615c)
+2017-01-06 13:10:52,834 INFO  [    o.s.blitz.repo.ManagedImportRequestI] (2-thread-5) Finalizing log file.

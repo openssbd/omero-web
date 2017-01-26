@@ -1,0 +1,30 @@
+#!/bin/sh
+#
+# chkconfig: 2345 99 01
+# description: omero WEB Server
+# processname: omero
+
+do_start() {
+    sudo -u omero /OMERO/bin/start.sh
+    return 0
+}
+
+do_stop() {
+    sudo -u omero /OMERO/bin/stop.sh
+    return 0
+}
+
+case "$1" in
+    start|stop)
+	do_${1}
+	;;
+    restart)
+	do_stop
+	do_start
+	;;
+    *)
+	echo "Usage: $0 {start|stop|restart}"
+	exit 1
+	;;
+esac
+exit 0

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "./script", line 392, in <module>
+    runAsScript()
+  File "./script", line 368, in runAsScript
+    contact="ome-users@lists.openmicroscopy.org.uk",
+  File "/OMERO/OMERO.server/lib/python/omero/scripts.py", line 395, in client
+    handleParse(c)  # May throw
+  File "/OMERO/OMERO.server/lib/python/omero/scripts.py", line 412, in handleParse
+    raise ParseExit(c.params)
+omero.scripts.ParseExit
