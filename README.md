@@ -63,4 +63,4 @@ OMERO.insight の起動し Docker環境に構築した OMERO.server に接続し
 
 ## 補足
 
-"sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。"sh run.sh" を一度は実行したことがあり、パソコンを再起動した場合でも OMERO.server の状態を維持したい場合は、"sh run.sh" の代わりに "docker start omero-web" と入力してDockerにサービスの起動のみを指示してください。
+"sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。
