@@ -38,7 +38,7 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながら表示されない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では Docker の Preferences... で Memory を 3.0 GB にする変更する必要がありました。
+    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出てアクセスできないことがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながらアクセスできない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では Docker の Preferences... で Memory を 3.0 GB にする変更する必要がありました。
 
     ![Alt text](OMERO.docker_setup.png?raw=true "Docker の設定画面")
 
@@ -48,7 +48,7 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
     
-  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac で "開発元が未確認のため開けません" というエラーが出る場合は option を押しながらクリックします。
+  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac で "開発元が未確認のため開けません" というエラーが出る場合は Control キーを押しながらクリックし「開く」を選択します。
   
   3. 以下のアカウントを入力し OMERO.server に接続します。
     * 鍵をかけた状態にする
