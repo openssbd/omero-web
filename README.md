@@ -1,11 +1,11 @@
 # Docker で OMERO 環境を構築する方法
 
-OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動で行う Dockerfile を作成しました。CentOS release 6.8 と MacOS Sierra で確認しています。
+OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動で行う Dockerfile を作成しました。CentOS release 6.8 と MacOS Sierra で動作確認しています。
 
 ## 前提
 
-* Docker 環境 (<https://docs.docker.com/engine/getstarted/step_one/>) を用意して下さい。Yosemite 以上の Mac OS では "Docker for Mac" のインストールを推奨します。MacBookPro では問題なく動きました。
-* GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
+* Docker (<https://docs.docker.com/engine/getstarted/step_one/>) をインストールして下さい。Yosemite 以上の Mac OS では "Docker for Mac" の利用を推奨します。
+* GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。
 
 ## OMERO.server のインストールおよび起動
 
@@ -38,11 +38,11 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの稼働にパソコンのスペックが足りない場合も残念ながら表示されない場合があります。OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
+    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出ることがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながら表示されない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では Docker の Preferences... で Memory を 3.0 GB にする変更する必要がありました。
 
 ## OMERO.server に画像を新しく追加する方法
 
-OMERO.insight の起動し Docker環境に構築した OMERO.server に接続します。
+OMERO.insight の起動し Dockerに構築した OMERO.server に接続します。
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
     
@@ -59,8 +59,10 @@ OMERO.insight の起動し Docker環境に構築した OMERO.server に接続し
     
     ![Alt text](OMERO.insight2.png?raw=true "OMERO.insight で画像をインポートする画面")
     
-    登録のテストに SSBD データベース(<http://ssbd.qbic.riken.jp>) にある顕微鏡画像を使うことができます（例：<http://ssbd.qbic.riken.jp/search/afc304bc-7cca-4c92-8764-f5957dd06e3d/> の Source をダウンロードして解凍）。
+    追加のテストに SSBD データベース(<http://ssbd.qbic.riken.jp>) にある顕微鏡画像を使うことができます（例：<http://ssbd.qbic.riken.jp/search/afc304bc-7cca-4c92-8764-f5957dd06e3d/> の Source をダウンロードして解凍）。
 
 ## 補足
 
-"sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。
+* "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
+
+* OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
