@@ -58,4 +58,4 @@ OMERO.insight の起動し OMERO.server に接続します。
     
     ![Alt text](OMERO.insight2.png?raw=true "OMERO.insight で画像をインポートする画面")
     
-    インポートのテスト用に SSBD データベース(<http://ssbd.qbic.riken.jp>) にある顕微鏡画像を使うことができます（例：<http://ssbd.qbic.riken.jp/search/afc304bc-7cca-4c92-8764-f5957dd06e3d/> の Source をダウンロードして解凍）。
+    登録のテストに SSBD データベース(<http://ssbd.qbic.riken.jp>) にある顕微鏡画像を使うことができます（例：<http://ssbd.qbic.riken.jp/search/afc304bc-7cca-4c92-8764-f5957dd06e3d/> の Source をダウンロードして解凍）。
