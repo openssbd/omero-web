@@ -63,9 +63,9 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
 
 ## 補足
 
-* "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正する必要があります。
+* "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正します。
 
-* パソコンのスペックが足りない（Successfully built が出るのにブラウザではいつまでもアクセスできない）場合は、"sh run.sh" の代わりに "sh run_test.sh" を実行して Docker コンテナにログインし以下のコマンドを順に実行してみてください。ctrl-p ctrl-q は "control を押しながら p を押した後、もう一度、control を押しながら q を押す" というキー操作で、コンテナを起動したまま内部から抜け出すという指示です。
+* パソコンのスペックが足りない（Successfully built が出るのにブラウザではいつまでもアクセスできない）場合は、"sh run.sh" の代わりに "sh run_test.sh" を実行して Docker コンテナにログインし以下のコマンドを順に実行してみて下さい。ctrl-p ctrl-q は "control を押しながら p を押した後、もう一度、control を押しながら q を押す" というキー操作で、コンテナを起動したまま内部から抜け出すという指示です。
 
     ```
     # service postgresql start
@@ -77,7 +77,7 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
     # service nginx start
     # ctrl-p ctrl-q
     ```
-* OMERO.server の root のパスワード は root_password にしています。アカウントとパスワードは以下の表のように Dockerfile で設定されており、外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
+* OMERO.server の root のパスワード は root_password にしています。アカウントとパスワードは Dockerfile で下記の表のように設定されており、外部公開などに使うにはセキュリティを向上させる必要があります。
 
     <table class="wiki">
     <tr><th><strong>アカウントの種類</strong></th><th><strong>Username</strong></th><th><strong>Password</strong></th></tr>
