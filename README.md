@@ -78,3 +78,14 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
     # ctrl-p ctrl-q
     ```
 * OMERO.server の root のパスワード は root_password にしています。外部公開などに使うには root パスワードの変更などセキュリティを向上させる必要があります。
+
+<table class="wiki">
+<tr><th><strong>アカウントの種類</strong></th><th><strong>Username</strong></th><th><strong>Password</strong></th></tr>
+<tr><td>System 管理者アカウント</td><td>root</td><td>root</td></tr>
+<tr><td>System データベースアカウント</td><td>postgres</td><td>postgres</td></tr>
+<tr><td>System OMEROアカウント</td><td>omero</td><td>omero</td></tr>
+<tr><td>Database 管理者アカウント</td><td>postgres</td><td>postgres</td></tr>
+<tr><td>Database OMEROアカウント</td><td>db_user</td><td>db_password</td></tr>
+<tr><td>OMERO 管理者アカウント</td><td>root</td><td>root_password</td></tr>
+<tr><td>OMERO ユーザアカウント</td><td>public_data</td><td>public_data</td></tr>
+</table>
