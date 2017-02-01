@@ -1,6 +1,6 @@
 # Docker で OMERO 環境を構築する方法
 
-OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動で行う Dockerfile を作成しました。CentOS release 6.8 と MacOS Sierra で動作確認をしています。
+OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動的に行う Dockerfile を作成しました。"public_data" というアカウントで自動ログインし自由に書き込みできる状態になります。CentOS release 6.8 と MacOS Sierra で動作確認をしています。
 
 ## 前提
 
