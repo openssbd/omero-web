@@ -1,15 +1,15 @@
 # Docker で OMERO 環境を構築する方法
 
-OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動で行う Dockerfile を作成しました。CentOS release 6.8 と MacOS Sierra で動作確認しています。
+OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画像を管理することを目的に、Jason Swedlow 氏らのグループにより開発されたソフトウェアプラットフォームです。その OMERO のインストールと設定を自動で行う Dockerfile を作成しました。CentOS release 6.8 と MacOS Sierra で動作確認をしています。
 
 ## 前提
 
 * Docker (<https://docs.docker.com/engine/getstarted/step_one/>) をインストールして下さい。Mac OS Yosemite 10.10.3 以上では "Docker for Mac" の利用を推奨します。
-* GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/ に置きます（Mac ならば /Users/username/）。
+* GitHub の "Download ZIP" (<https://github.com/openssbd/omero-web/archive/master.zip>) でダウンロードしたファイル omero-web-master.zip を解凍し omero-web というフォルダ名に変更し ~/（Mac ならば /Users/username/）に置きます。
 
 ## OMERO.server のインストールおよび起動
 
-  1. ターミナルなどで以下のように omero-web フォルダ内に移動したあと "sh run.sh" コマンドを打つと OMERO.server がインストールかつ環境設定されたDockerイメージを作成し、やがて起動します。インターネットとパソコンによりますが、起動まで1時間程度かかる場合があります。
+  1. ターミナルなどで以下のように omero-web フォルダ内に移動したあと "sh run.sh" と打つと OMERO.server がインストールかつ環境設定された Docker イメージを作成し、やがて起動します。インターネットとパソコンによりますが、起動まで1時間程度かかる場合があります。
   
     ```
     # cd ~/omero-web/
@@ -38,15 +38,15 @@ OMERO (<http://www.openmicroscopy.org>) はテラバイト単位の顕微鏡画�
     
     ![Alt text](OMERO.web.png?raw=true "OMERO.server の画面")
     
-    OMERO.server の起動途中だった場合に「ページを開けません」といったエラーメッセージが出てアクセスできないことがあります。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながらアクセスできない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では難しいです(対応は「補足」参照）。
+    OMERO.server の起動途中にアクセスすると "ページを開けません" といったエラーメッセージ出ます。その場合はもう少し待ってみて下さい。OMERO のサービスの起動にパソコンのスペックが足りない場合も残念ながらアクセスできない場合があります。MacBookPro では問題なく動きましたが、MacBookAir では難しいです(対応は「補足」参照）。
 
 ## OMERO.server に画像を新しく追加する方法
 
-OMERO.insight の起動し Dockerに構築した OMERO.server に接続します。
+OMERO.insight を起動し Docker に構築した OMERO.server に接続します。
 
   1. <http://downloads.openmicroscopy.org/omero/5.2.7/> の "OMERO client downloads" から OMERO v5.2.7/Ice v3.5 の OMERO.insight を ダウンロードします。Mac ならば OMERO.insight-5.2.7-ice35-b40-mac.zip です。
     
-  2. ダウンロードしたファイルを解凍したフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac で "開発元が未確認のため開けません" というエラーが出る場合は Control キーを押しながらクリックし「開く」を選択します。
+  2. ダウンロードしたファイルを解凍してできるフォルダ内の OMERO.insight.app をクリックし OMERO.insight を起動します。Mac で "開発元が未確認のため開けません" というエラーが出る場合は Control キーを押しながらクリックし "開く" を選択します。
   
   3. 以下のアカウントを入力し OMERO.server に接続します。
     * 鍵をかけた状態にする
@@ -63,7 +63,7 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
 
 ## 補足
 
-* "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正します。
+* "sh run.sh" を実行すると 初期状態の OMERO.server が起動します。画像の登録などの変更を加えても必ず初期状態に戻ります。変更を維持するには Docker の知識が必要です。omero-web フォルダの置く場所を変更した場合は run.sh の中の記述で ~/ となっている部分を修正します。
 
 * パソコンのスペックが足りない（Successfully built が出るのにブラウザではいつまでもアクセスできない）場合は、"sh run.sh" の代わりに "sh run_test.sh" を実行して Docker コンテナにログインし以下のコマンドを順に実行してみて下さい。ctrl-p ctrl-q は "control を押しながら p を押した後、もう一度、control を押しながら q を押す" というキー操作で、コンテナを起動したまま内部から抜け出すという指示です。
 
@@ -77,7 +77,7 @@ OMERO.insight の起動し Dockerに構築した OMERO.server に接続します
     # service nginx start
     # ctrl-p ctrl-q
     ```
-* OMERO.server の root のパスワード は root_password にしています。アカウントとパスワードは Dockerfile で下記の表のように設定されており、外部公開などに使うにはセキュリティを向上させる必要があります。
+* OMERO.server の root のパスワード は root_password にしています。アカウントとパスワードは Dockerfile で下記の表のように設定されており外部公開などに使うにはセキュリティを向上させる必要があります。
 
     <table class="wiki">
     <tr><th><strong>アカウントの種類</strong></th><th><strong>Username</strong></th><th><strong>Password</strong></th></tr>
