@@ -52,7 +52,7 @@ If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommend
 Using OMERO.insight to connect to the omero-web Docker container
 
 1. Please download OMERO.insight here <http://downloads.openmicroscopy.org/omero/5.2.7/> 
-a. Choose the right version for your OS platform. For example, if you are using Mac OSX, choose OMERO.insight-5.2.7-ice35-b40-mac.zip.
+  * Choose the right version for your OS platform. For example, if you are using Mac OSX, choose OMERO.insight-5.2.7-ice35-b40-mac.zip.
     
   2. After you unzip the application, please click on OMERO.insight.app to start OMERO.insight
   
