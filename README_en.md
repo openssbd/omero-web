@@ -17,7 +17,7 @@ If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommend
 
 ## Installing OMERO.server as a container and start up
 
-  1. Use a terminal or co and line, enter the omero-web directory and run "sh run.sh". It will install automatically create a Docker image and install OMERO.server. The OMERO.server will start up in a new Docker containe. The installation requires downloading OMERO.server from the Internet and it may take close to an hour in some circumstances.
+  1. Use a terminal or co and line, enter the omero-web directory and run "sh run.sh". It will install automatically create a Docker image and install OMERO.server. The OMERO.server will start up in a new Docker container. The installation requires downloading OMERO.server from the Internet and it may take close to an hour in some circumstances.
   
     ```
     # cd ~/omero-web/
