@@ -1,6 +1,6 @@
-# Creating a ready to use Docker container for OMERO in auto-login mode
+# Creating a ready-to-use Docker container for OMERO in auto-login mode
 
-English instruction is available here <README_en.md>. 
+English instruction is available here [README_en.md](README_en.md). 
 
 
 # Docker で OMERO 環境を構築する方法
