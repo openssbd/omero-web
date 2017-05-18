@@ -1,4 +1,4 @@
-# Omero-Web - creating a ready-to-use Docker container for OMERO in auto-login mode
+# Omero-Web - building a ready-to-use Docker container for OMERO in auto-login mode
 
 
 OMERO (<http://www.openmicroscopy.org>) is a software platform for visualization, management and analysis of biological microscope images. It is being developed by the OME consortium of various partners led by Prof Jason Swedlow of the University of Dundee. 
