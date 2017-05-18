@@ -13,7 +13,7 @@ If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommend
 	```
        # git clone https://github.com/openssbd/omero-web.git
        ```
-**?Alternatively, you can download the zip file (https://github.com/openssbd/omero-web/archive/master.zip) instead of using Git and rename the directory as omero-web.
+* Alternatively, you can download the zip file (https://github.com/openssbd/omero-web/archive/master.zip) instead of using Git and rename the directory as omero-web.
 
 ## Installing OMERO.server as a container and start up
 
