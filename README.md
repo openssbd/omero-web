@@ -1,4 +1,4 @@
-# Omero-Web - creating a ready-to-use Docker container for OMERO in auto-login mode
+# Omero-Web - building a ready-to-use Docker container for OMERO in auto-login mode
 
 English instruction is available here [README_en.md](README_en.md). 
 
