@@ -10,27 +10,27 @@ OMERO (<http://www.openmicroscopy.org>) is a software platform for visualization
 If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommended over Docker Toolbox. However, Docker for Mac only works on Mac with hardware virtualization that may not be supported by some Mac hardware. Please refer to Docker site for more details.
 
 * Please install Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and clone omero-web
-	```
+```
        # git clone https://github.com/openssbd/omero-web.git
-       ```
+```
 * Alternatively, you can download the zip file (https://github.com/openssbd/omero-web/archive/master.zip) instead of using Git and rename the directory as omero-web.
 
 ## Installing OMERO.server as a container and start up
 
   1. Use a terminal or co and line, enter the omero-web directory and run "sh run.sh". It will install automatically create a Docker image and install OMERO.server. The OMERO.server will start up in a new Docker container. The installation requires downloading OMERO.server from the Internet and it may take close to an hour in some circumstances.
-  
-    ```
+  
+ ```
     # cd ~/omero-web/
     # ls
     Dockerfile   OMERO.insight1.png   ... run.sh  ...   setup/
     (Please confirm that run.sh is in your directory?
-    # sh run.sh
-    ```
+    # sh run.sh
+ ```
     
     Successfully built (this message will be displayed to inform you that the omero-web image has been built successfully)
     OMERO.server (starting up omero will display in 20s or so)
     
-    ```
+```
     Step 41/41 : CMD /bin/bash /start.sh && tail -f /dev/null
      ---> Using cache
      ---> 1cc743c65045
@@ -38,7 +38,7 @@ If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommend
     omero-web
     omero-web
     a54fe17253be899e79b8ec93d39ec0f5062e85844cc82fc7cb01474266d975c7
-    ```
+```
     
   2. Connecting to omero-web (OMERO.server inside a Docker container) with a browser by entering the following URL
   
