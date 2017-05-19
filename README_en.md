@@ -25,12 +25,12 @@ If you are using Mac OS Yosemite 10.10.3 or later, "Docker for Mac" is recommend
     Dockerfile   OMERO.insight1.png   ... run.sh  ...   setup/
     (Please confirm that run.sh is in your directory?
     # sh run.sh
- ```
+
     
     Successfully built (this message will be displayed to inform you that the omero-web image has been built successfully)
     OMERO.server (starting up omero will display in 20s or so)
     
-```
+
     Step 41/41 : CMD /bin/bash /start.sh && tail -f /dev/null
      ---> Using cache
      ---> 1cc743c65045
